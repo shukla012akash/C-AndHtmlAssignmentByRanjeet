@@ -207,7 +207,7 @@ namespace AssignmentBase
 
             // LINQ Query Syntax to find out teenager students
             var teenAgerStudent = from s in studentList
-                                  where s.StudentAge < 20
+                                  where s.StudentAge >13 && s.StudentAge < 19
                                   select s;
             Console.WriteLine("Teen age Students:");
 
